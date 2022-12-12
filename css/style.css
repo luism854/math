@@ -1,0 +1,11 @@
+.input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono{
+    justify-content: left;
+    display:flex;
+    flex-direction: row;
+}

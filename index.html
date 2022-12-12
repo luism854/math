@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematicas</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>PERIMETROS, AREAS Y VOLUMENES</h1>
+</div>
+<h2>Figuras Planas</h2>
+<h3>Perimetro y Área del Triángulo</h3>
+<div class="triangulo" id="triangulo">
+    <div class="input-tria">
+        <input type="number" name="baset" id="baset" placeholder="Base del triangulo"><br>
+        <input type="number" name="alturat" id="alturat" placeholder="Altura del triángulo"><br><br>
+        <input type="number" name="lado1t" id="lado1t" placeholder="Lado 1"><br>
+        <input type="number" name="lado2t" id="lado2t" placeholder="Lado 2"><br>
+        <input type="number" name="lado3t" id="lado3t" placeholder="Lado 3"><br><br>
+        <button onclick="enviart()">Enviar</button><br>
+        <p id="res1"></p><br>
+    </div>
+</div>
+</div>
+<h3>Perimetro y Área del Cuadrado</h3>
+<div class="cuadrado" id="cuadrado">
+    <div class="input-cua">
+        <input type="number" name="ladoc" id="ladoc" placeholder="Lado del caudrado"><br>
+        <button onclick="enviarc()">Enviar</button><br>
+        <p id="res2"></p><br>
+    </div>
+</div>
+<h3>Perimetro y Área del rectangulo o del Romboide</h3>
+<div class="rectangulo" id="rectangulo">
+    <div class="input-rec">
+        <input type="number" name="baser" id="baser" placeholder="Base del rectangulo"><br>
+        <input type="numbre" name="alturar" id="alturar" placeholder="Altura del rectangulo"><br>
+        <button onclick="enviarr()">Enviar</button><br>
+        <p id="res3"></p>
+    </div>
+</div>
+<h3>Perimetro y Área del Rombo</h3>
+<div class="rombo" id="rombo">
+    <div class="input-rom">
+        <input type="number" name="diagonal-menor" id="diagonal-menor" placeholder="Diagonal menor del Rombo"><br>
+        <input type="number" name="diagonal-mayor" id="diagonal-mayor" placeholder="Diagonal Mayor del Rombo"><br><br>
+        <input type="number" name="lado-rom" id="lado-rom" placeholder="Lado del rombo"><br>
+        <button onclick="enviarrom()">Enviar</button>
+        <p id="res4"></p>
+    </div>
+</div>    
+<h3>Perimetro y Área del Trapecio</h3>
+<div class="trapec" id="trapecio">
+    <div class="input-tra">
+        <input type="number" name="base-menor" id="base-menor" placeholder="Base menor del Trapecio"><br>
+        <input type="number" name="base-mayor" id="base-mayor" placeholder="Base Mayor del Trapecio"><br>
+        <input type="number" name="alturatra" id="alturatra" placeholder="Altura del Trapecio"><br><br>
+        <input type="numbre" name="lado1-tra" id="lado1-tra" placeholder="Lado 1 del Trapecio"><br>
+        <input type="numbre" name="lado2-tra" id="lado2-tra" placeholder="Lado 2 del trapecio"><br>
+        <button onclick="enviartra()">Enviar</button>
+        <p id="res5"></p>
+    </div>
+</div>
+<h3>Perimetro y Área del Círculo</h3>
+<div class="circulo" id="circulo">
+    <div class="input-circ">
+        <input type="number" name="radio" id="radio" placeholder="Radio del Circulo"><br>
+        <button onclick="enviarcirc()">Enviar</button>
+        <p id="res6"></p>
+    </div>
+</div>
+<h2>Figuras Solidas</h2>
+<h3>Perimetro, Área y Volumen de la esfera</h3>
+<div class="esfera" id="esfera">
+    <div class="input-esfera">
+        <input type="number" name="radio-esf" id="radio-esf" placeholder="Radio"><br>
+        <button onclick="enviaresf()">Enviar</button>
+        <p id="res7"></p>
+    </div>
+</div>
+<h3>Perimetro, Área y Volumen del Cubo</h3>
+<div class="cubo" id="cubo">
+    <div class="input-cubo">
+        <input type="number" name="lado-cubo" id="lado-cubo" placeholder="Lado Cubo"><br>
+        <button onclick="enviarcubo()">Enviar</button>
+        <p id="res8"></p>
+    </div>
+</div>
+<h3>Perimetro, Area y Volumen del Paralelepipedo</h3>
+<div class="paralelepipedo" id="paralelepipedo">
+    <div class="input-paralele">
+        <input type="number" name="alturap" id="alturap" placeholder="Altura"><br>
+        <input type="number" name="anchop" id="anchop" placeholder="Ancho"><br>
+        <input type="number" name="largop" id="largop" placeholder="Largo"><br><br>
+        <button onclick="enviarp()">Enviar</button><br>
+        <p id="res9"></p><br>
+    </div>
+</div>
+<h3>Perimetro, Àrea y Volumen del Cilindro</h3>
+<div class="cilindro" id="cilindro">
+    <div class="input-cilindro">
+        <input type="number" name="radio-cilindro" id="radio-cilindro" placeholder="Radio Cilindro"><br>
+        <input type="number" name="altura-cilindro" id="altura-cilindro" placeholder="Altura Cilindro"><br>
+        <button onclick="enviarcilin()">Enviar</button>
+        <p id="res10"></p>
+    </div>
+</div>
+<h3>Perímetro, Área y Volumen del Cono</h3>
+<div class="cono" id="cono">
+    <div class="input-cono">
+        <input type="number" name="radio-cono" id="radio-cono" placeholder="Radio Cono"><br>
+        <input type="number" name="altura-cono" id="altura-cono" placeholder="Altura Cono"><br>
+        <button onclick="enviarcono()">Enviar</button>
+        <p id="res11"></p>
+    </div>
+</div>
+</body>
+</html>
