@@ -1,3 +1,6 @@
+h1{
+    text-align: center;
+}
 .input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono{
     align-items: center;
     width: 200px;
