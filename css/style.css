@@ -1,14 +1,21 @@
+body{
+    background-color: silver;
+}
 h1{
     text-align: center;
 }
-.input-tria, .input-cua, .input-rec, .input-rom, .input-tra, .input-circ, .input-esfera, .input-cubo, .input-paralele, .input-cilindro, .input-cono{
+.input-triangulo, .input-cuadrado, .input-rectangulo, .input-rombo, .input-trapecio, .input-circulo, .input-esfera, .input-cubo, .input-paralelepipedo, .input-cilindro, .input-cono{
     align-items: center;
     width: 200px;
     height: 200px;
-    padding: 20px;
+    padding: 40px;
 }
 .triangulo, .cuadrado, .rectangulo, .rombo, .trapec, .circulo, .esfera, .cubo, .paralelepipedo, .cilindro, .cono{
-    justify-content: left;
+    justify-content: center;
     display:flex;
     flex-direction: row;
+    border: 10px groove red;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(253, 123, 123);
 }

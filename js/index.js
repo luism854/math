@@ -1,20 +1,20 @@
 function enviart(){
-    let baset,alturat,l1t,l2t,l3t,perimetrot,areat
+    let bt,at,l1t,l2t,l3t,perimetrot,areat
     /*Captura el dato ingresado en el input con id nombre*/
-    baset = document.getElementById('baset').value
-    alturat = document.getElementById('alturat').value
-    l1t = document.getElementById('lado1t').value
-    l2t = document.getElementById('lado2t').value
-    l3t= document.getElementById('lado3t').value
+    bt = document.getElementById('bt').value
+    at = document.getElementById('at').value
+    l1t = document.getElementById('l1t').value
+    l2t = document.getElementById('l2t').value
+    l3t= document.getElementById('l3t').value
     perimetrot = parseFloat(l1t)+parseFloat(l2t)+parseFloat(l3t)
-    areat = (baset*alturat)/2
+    areat = (bt*at)/2
     //se muestra el archivo html con id respuesta
     document.getElementById('res1').innerHTML="El Perimetro del Triangulo es "+perimetrot+", el área es "+areat
 }
 
 function enviarc(){
     let lado, peri, area
-    lado = document.getElementById('ladoc').value
+    lado = document.getElementById('ladocua').value
     peri = lado*4
     area = lado*lado
     document.getElementById('res2').innerHTML="El perimetro es "+peri+",el área es "+area
